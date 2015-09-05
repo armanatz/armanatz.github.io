@@ -406,7 +406,7 @@ header {
 .navbar.navbar-inverse.navbar-static-top a {
 	color:#4c404d;
 	padding:0 26px;
-	line-height:140px;
+	line-height:80px;
 	text-align:center;
 	font-weight:800;
 	transition-duration: 0.2s;
