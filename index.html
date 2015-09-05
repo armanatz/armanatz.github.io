@@ -52,7 +52,9 @@
         </div>
         <!--header text start-->
         <div class="bannerText container">
-          <h1>I'm Arman Attarzadeh</h1>
+          <h1>
+            <span class="element"></span>
+          </h1>
           <p>I helped co-found a startup and do Web Development along with UX Design.</p>
           <a href="#protfolio" class="mbnt">View my work</a>
         </div>
@@ -576,6 +578,21 @@
 
   <!--contact form js-->
   <script type="text/javascript" src="js/jquery.contact.js"></script>
+
+  <script src="js/typed.min.js"></script>
+  <script>
+    $(document).ready(function(){
+      $(function(){
+        $(".element").typed({
+            strings: ["Hello!", "I'm Arman Attarzadeh."],
+            typeSpeed: 100,
+            startDelay: 1500,
+            backSpeed: 100,
+            backDelay: 1000,
+        });
+      });
+    });
+  </script>
 </body>
 
 </html>
