@@ -484,7 +484,7 @@ header {
 	margin-top:-62px !important;
 }
 .aboutCont{
-	padding-bottom:28px;
+	padding-bottom:3px;
 	padding-left:48px;
 	}
 .aboutme .proPic img{
@@ -509,6 +509,9 @@ header {
 }
 #description .ps-scrollbar-x-rail{
 	display:none !important;
+}
+#description p {
+  padding-bottom: 20px;
 }
 .aboutme .proPic:after{
 	position:absolute;
